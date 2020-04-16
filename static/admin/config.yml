@@ -1,5 +1,6 @@
 backend:
-  name: https://github.com/SajithRAP/GatsbyStarterDev.git
+  name: github
+  repo: SajithRAP/GatsbyStarterDev
 
 media_folder: static/assets
 public_folder: /assets
