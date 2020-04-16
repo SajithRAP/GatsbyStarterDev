@@ -1,5 +1,5 @@
 ---
-path: blog1
+path: /blog1
 date: 2020-04-16T17:53:49.729Z
 title: Explore the effects of COVID 19
 ---
