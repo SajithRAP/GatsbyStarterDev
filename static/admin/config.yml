@@ -8,7 +8,7 @@ public_folder: /assets
 collections:
   - label: "Blog"
     name: "blog"
-    folder: "src/pages/blog"
+    folder: "content/blog"
     create: true
     identifier_field: name
     fields:
@@ -21,7 +21,7 @@ collections:
     files:
       - label: "About Page"
         name: "about"
-        file: "src/pages/about/about.yml"
+        file: "content/pages/about.yml"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
@@ -34,7 +34,7 @@ collections:
               - {label: Photo, name: photo, widget: image}
       - label: "Locations Page"
         name: "locations"
-        file: "src/pages/location/locations.yml"
+        file: "content/pages/locations.yml"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
